@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  h1= title
+  hr
+  div#info
+    p hola eres un usuario tipo invitado y no te es permitido entrar a la pagina del administrador
+  br
+  form(action='/salir', method='get')
+    button(type='submit') Salir

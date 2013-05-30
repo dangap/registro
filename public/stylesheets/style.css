@@ -1,0 +1,29 @@
+body {
+	background-color: grey;
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+h1{
+	text-align: center;
+}
+a {
+  color: #00B7FF;
+}
+div#login{
+	height: 150px;
+	vertical-align: center;
+	text-align: center;
+	background: black;
+	border-radius: 2em;
+	margin: 5px;
+	box-shadow: 10px 10px 5px #ccc;
+}
+div#info{
+	height: 50px;
+	text-align: center;
+	background: white;
+	border-radius: 0.5em;
+	margin: 5px;
+	box-shadow: 10px 10px 5px black;
+}
+

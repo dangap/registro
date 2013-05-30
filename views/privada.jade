@@ -1,0 +1,18 @@
+extends layout
+
+block content
+  h1= title
+  hr
+  form(action='/eliminar', method='post')
+    input(type='text', id='usuelim', name='usuelim', placeholder='usuario', required)
+    button(type='submit') Eliminar
+  form(action='/actualizar', method='post')
+    input(type='text', id='usueact', name='usueact', placeholder='usuario', required)
+    input(type='text', id='passact', name='passact', placeholder='password', required)
+    input(type='text', id='aliasact', name='aliasact', placeholder='alias', required)
+    input(type='text', id='tipoact', name='tipoact', placeholder='tipo', required)
+    input(type='text', id='activo', name='activo', placeholder='activo', required)
+    button(type='submit') actualizar
+    input(type='text', id='usub', name='usub', placeholder='usuario a actualizar', required)
+  form(action='/salir', method='get')
+    button(type='submit') Salir
